@@ -17,7 +17,8 @@ guesses = ''
 turns = 10
 
 while turns > 0:
-False = 0
+
+failed = 0
 
 for char in word:
 
@@ -27,9 +28,9 @@ for char in word:
     else:
       print("_")
 
-      False += 1
+      failed += 1
 
-if False == 0;
+if failed == 0;
 
 print("You Win")
 
